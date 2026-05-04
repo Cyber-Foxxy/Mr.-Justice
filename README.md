@@ -24,27 +24,12 @@
 - Game/art state changes
 - Visual feedback and scoring/progress
 
-## Repository Structure
-
-```text
-the-lantern-path/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── data/
-    └── runes.json
-```
-
-## Running the Project
-
-This project can be opened with **Live Server** in VS Code. Because it loads a JSON file, Live Server is recommended.
+This project can be opened with **Live Server** in VS Code.
 
 1. Open the folder in VS Code.
 2. Right-click `index.html`.
 3. Choose **Open with Live Server**.
 4. The project should open in the browser.
 
-## Project Statement
 
 For my final project, I created an interactive artwork called **The Lantern Path**. The piece focuses on exploration and discovery instead of traditional combat or winning. The user guides a lantern-headed character through a dark magical scene, and the lantern glow reveals hidden runes. As the user collects light, the environment becomes more alive and the sky portal eventually awakens. I wanted the project to feel like a small magical story moment while still demonstrating JavaScript logic, classes, arrays, animation, keyboard input, mouse interaction, collision detection, and JSON loading.
