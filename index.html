@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lantern Path</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="title-card">
+      <h1>The Lantern Path</h1>
+      <p>
+        Guide Mr. Justice through a magical twilight field. His lantern flame reveals hidden runes,
+        floating islands, and sparks of mystery.
+      </p>
+    </section>
+
+    <section class="game-wrap">
+      <canvas id="gameCanvas" width="960" height="600" aria-label="Interactive artwork canvas"></canvas>
+
+      <div class="hud">
+        <div><strong>Light Found:</strong> <span id="scoreText">0</span>/<span id="totalText">0</span></div>
+        <div><strong>Message:</strong> <span id="messageText">Find the hidden runes.</span></div>
+      </div>
+
+      <div class="controls-panel">
+        <p><strong>Move:</strong> WASD or Arrow Keys</p>
+        <p><strong>Click:</strong> create tiny sparks of light</p>
+        <p><strong>Goal:</strong> collect every glowing rune to awaken the sky portal</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
