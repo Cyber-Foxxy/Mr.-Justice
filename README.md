@@ -32,4 +32,4 @@ This project can be opened with **Live Server** in VS Code.
 4. The project should open in the browser.
 
 
-For my final project, I created an interactive artwork called **The Lantern Path**. The piece focuses on exploration and discovery instead of traditional combat or winning. The user guides a lantern-headed character through a dark magical scene, and the lantern glow reveals hidden runes. As the user collects light, the environment becomes more alive and the sky portal eventually awakens. I wanted the project to feel like a small magical story moment while still demonstrating JavaScript logic, classes, arrays, animation, keyboard input, mouse interaction, collision detection, and JSON loading.
+For my final project, I created an interactive artwork called **The Lantern Path**. The piece focuses on exploration and discovery instead of traditional combat or winning. The user guides a lantern-headed character through a dark magical scene, and the lantern glow reveals hidden runes. As the user collects light, the environment becomes more alive and the sky portal eventually awakens. I wanted the project to feel like a small magical story moment. 
