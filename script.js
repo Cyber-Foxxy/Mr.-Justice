@@ -369,7 +369,7 @@ function drawRuins() {
   ];
 
   ctx.fillStyle = "#686c75";
-  ctx.strokeStyle = "#30343d";
+  ctx.strokeStyle = "#afbcda";
   ctx.lineWidth = 2;
 
   stones.forEach(stone => {
@@ -379,14 +379,14 @@ function drawRuins() {
 
 function drawDarknessOverlay() {
   ctx.save();
-  ctx.fillStyle = "rgba(0, 0, 0, 0.54)";
+  ctx.fillStyle = "rgba(250, 250, 243, 0.54)";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.globalCompositeOperation = "destination-out";
   const glow = ctx.createRadialGradient(player.x, player.y - 48, 30, player.x, player.y - 48, 185);
-  glow.addColorStop(0, "rgba(0,0,0,0.95)");
-  glow.addColorStop(0.6, "rgba(0,0,0,0.48)");
-  glow.addColorStop(1, "rgba(0,0,0,0)");
+  glow.addColorStop(0, "rgba(246, 244, 228, 0.71)");
+  glow.addColorStop(0.6, "rgba(247, 212, 212, 0.48)");
+  glow.addColorStop(1, "rgba(220, 214, 214, 0)");
   ctx.fillStyle = glow;
   ctx.beginPath();
   ctx.arc(player.x, player.y - 48, 185, 0, Math.PI * 2);
