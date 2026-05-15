@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   font-family: "Comic Sans MS", "Trebuchet MS", Arial, sans-serif;
   background:
-    radial-gradient(circle at top, #9cb0f1 0%, #9f33ba 45%, #8917f5 100%);
+    radial-gradient(circle at top, #9cb0f1 0%, #500263 45%, #4d0591 100%);
   color: #fff8d7;
   display: flex;
   justify-content: center;
@@ -23,10 +23,10 @@ body {
   text-align: center;
   margin-bottom: 16px;
   padding: 18px 24px;
-  border: 3px solid rgba(255, 222, 135, 0.45);
+  border: 3px solid rgba(226, 221, 208, 0.45);
   border-radius: 18px;
-  background: rgba(6, 8, 18, 0.65);
-  box-shadow: 0 0 30px rgba(255, 198, 92, 0.16);
+  background: rgba(220, 221, 225, 0.65);
+  box-shadow: 0 0 30px rgba(224, 220, 214, 0.16);
 }
 
 .title-card h1 {
@@ -58,7 +58,7 @@ canvas {
   display: block;
   margin: 0 auto;
   border-radius: 14px;
-  background: #07101e;
+  background: #dde5f2;
   border: 3px solid #d6ad62;
 }
 
