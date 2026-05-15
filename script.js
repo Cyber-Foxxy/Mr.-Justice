@@ -50,8 +50,8 @@ class Player {
     // Lantern glow
    const glow = ctx.createRadialGradient(0, -48, 8, 0, -48, 170);
     glow.addColorStop(0, "rgba(255, 245, 200, 0.8)"); 
-    glow.addColorStop(0.35, "rgba(255, 210, 100, 0.4)");
-    glow.addColorStop(1, "rgba(255, 180, 80, 0)");
+    glow.addColorStop(0.35, "rgba(243, 225, 181, 0.4)");
+    glow.addColorStop(1, "rgba(235, 216, 191, 0)");
     ctx.fillStyle = glow;
     ctx.beginPath();
     ctx.arc(0, -48, 170, 0, Math.PI * 2);
@@ -59,7 +59,7 @@ class Player {
     
     // Body
     ctx.fillStyle = "#aeb7c7";
-    ctx.strokeStyle = "#232936";
+    ctx.strokeStyle = "#540e1d";
     ctx.lineWidth = 3;
     roundRect(-14, -14, 28, 42, 8, true, true);
 
@@ -227,9 +227,9 @@ function roundRect(x, y, width, height, radius, fill, stroke) {
 function drawBackground() {
   // Sky
   const sky = ctx.createLinearGradient(0, 0, 0, canvas.height);
-  sky.addColorStop(0, "#17244b");
-  sky.addColorStop(0.55, "#2c2647");
-  sky.addColorStop(1, "#12121b");
+  sky.addColorStop(0, "#98a9dc");
+  sky.addColorStop(0.55, "#b45ff09d");
+  sky.addColorStop(1, "#c921cc8f");
   ctx.fillStyle = sky;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -276,12 +276,12 @@ function drawFloatingIslands() {
     ctx.ellipse(0, 10, island.w * 0.75, 18, 0, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.fillStyle = "#415336";
+    ctx.fillStyle = "#4f046b";
     ctx.beginPath();
     ctx.ellipse(0, 0, island.w / 2, island.h, 0, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.fillStyle = "#2b231e";
+    ctx.fillStyle = "#c86323b7";
     ctx.beginPath();
     ctx.moveTo(-island.w / 2 + 12, 8);
     ctx.lineTo(0, 62);

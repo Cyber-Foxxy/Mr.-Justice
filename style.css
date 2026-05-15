@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   font-family: "Comic Sans MS", "Trebuchet MS", Arial, sans-serif;
   background:
-    radial-gradient(circle at top, #24325f 0%, #11172e 45%, #060812 100%);
+    radial-gradient(circle at top, #9cb0f1 0%, #9f33ba 45%, #8917f5 100%);
   color: #fff8d7;
   display: flex;
   justify-content: center;
