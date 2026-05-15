@@ -48,15 +48,15 @@ class Player {
     ctx.translate(this.x, this.y);
 
     // Lantern glow
-    const glow = ctx.createRadialGradient(0, -48, 8, 0, -48, 170);
-    glow.addColorStop(0, "rgba(255, 226, 123, 0.55)");
-    glow.addColorStop(0.35, "rgba(255, 174, 66, 0.18)");
-    glow.addColorStop(1, "rgba(255, 174, 66, 0)");
+   const glow = ctx.createRadialGradient(0, -48, 8, 0, -48, 170);
+    glow.addColorStop(0, "rgba(255, 245, 200, 0.8)"); 
+    glow.addColorStop(0.35, "rgba(255, 210, 100, 0.4)");
+    glow.addColorStop(1, "rgba(255, 180, 80, 0)");
     ctx.fillStyle = glow;
     ctx.beginPath();
     ctx.arc(0, -48, 170, 0, Math.PI * 2);
     ctx.fill();
-
+    
     // Body
     ctx.fillStyle = "#aeb7c7";
     ctx.strokeStyle = "#232936";
