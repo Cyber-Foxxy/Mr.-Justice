@@ -49,7 +49,7 @@ class Player {
 
     // Lantern glow
    const glow = ctx.createRadialGradient(0, -48, 8, 0, -48, 170);
-    glow.addColorStop(0, "rgba(248, 237, 174, 0.26)"); 
+    glow.addColorStop(0, "rgba(248, 237, 174, 0)"); 
     glow.addColorStop(0.35, "rgba(242, 239, 233, 0)");
     glow.addColorStop(1, "rgba(239, 235, 231, 0)");
     ctx.fillStyle = glow;
